@@ -1,8 +1,8 @@
 # Azure Cognitive Search - Multiple Sources Indexed In Single Index
 
 ## Background
-There are scenarios and use cases for creating an enerprise search experience where data from multiple sources can be searched in a single interface. This repo documents one of the patterns.
-A pattern to merge data from multiple data sources into a single index is document in the [Index from multiple data sources using the .NET SDK](https://docs.microsoft.com/en-us/azure/search/tutorial-multiple-data-sources) tutorial.
+There are scenarios and use cases for creating an enterprise search experience where data from multiple sources can be searched in a single interface. This repo documents one of the patterns.
+The pattern to merge data from multiple data sources into a single index is documented in the [Index from multiple data sources using the .NET SDK](https://docs.microsoft.com/en-us/azure/search/tutorial-multiple-data-sources) tutorial.
 This repo is based on the merging data pattern tutorial.
 
 Our scenario is to index data from multiple sources into a single schema to enable unified search experience, where users search, sort, navigate, and view the data in the same manner.
