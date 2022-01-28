@@ -27,6 +27,7 @@ dotnet build
 ```bash
 dotnet run --project src/AzureSearchMultipleDataSources.csproj
 ```
+![](/media/s6.png)
 
 ## Result
 1. Sign in to the Azure Portal and navigate to your search service.
@@ -36,3 +37,5 @@ dotnet run --project src/AzureSearchMultipleDataSources.csproj
 ![](/media/s4.png)
 1. Under Data sources you will see as below
 ![](/media/s5.png)
+1. Perform a "*" search in the Search explorer, you will get 2 results back, one from each source.
+![](/media/s7.png)
